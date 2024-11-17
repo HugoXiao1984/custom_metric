@@ -62,7 +62,7 @@ async def calculate_custom_metric():
         return 1
     elif running_requests_cloud > 10:
         return 1
-    elif running_requests_cloud < 5:
+    elif running_requests_cloud < 6:
         return 0
     else:
         return 0.5
